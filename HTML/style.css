@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-color: #101214;
+}
+    .header{
+    min-height: 100vh;
+    background-color: #101214;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.nav__wrapper{
+    min-height:8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo__name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ff1da1;
+}
+.links_wrapper .nav_links{
+display: flex;
+list-style: none;
+}
+.nav__link{
+    padding-left: 30px;
+    display: inline;
+}
+
+.link{
+    text-transform: uppercase;
+    color: #0074e8;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+.link:hover{
+    color: #ff1da1;
+}
+.hero_section .hero_wrapper{
+    min-height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.hero__section{
+    padding-top: 35px;
+}
+.heading{
+    font-size: 64px;
+}
+.heading span{
+    color: #0074e8;
+}
+.heading_help_text{
+    color: #ff1da1;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.heading__wrapper{
+ padding-bottom: 70px;
+}
+.info__text{
+    font-size: 22px;
+}
+.socialmedia__wrapper{
+padding: 40px 0;
+}
+.socialmedia__links{
+    display: flex;
+    padding-bottom: 20px;
+}
+.socialmedia__link{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ff1da1;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 10px ;
+    
+
+}
+.socialmedia__link:hover{
+    background-color: #ff1da1;
+}
+.btns__wrapper{
+    padding-top: 48px;
+    width: 100%;
+
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 19px;
+    max-width: 250px;
+    margin: 0 5px;
+    border: 1px solid #0074e8;
+    background-color: transparent;
+    border-radius: 7px;
+    color: #fff;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background-color:#55e800;
+}
+.form{
+    background-color: #0074e8;
+    max-width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.form__wrapper{
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+
+    align-items: center;
+}
+.help{
+    font-style: italic;
+    text-align: center;
+    background-color: #55e800;
+    font-size: small;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
+.fix{
+  border-radius: 20px;  
+
+}
